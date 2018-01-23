@@ -1,0 +1,36 @@
+{%extends 'layout.html'%}
+
+{%block content%}
+
+<div id="reg-block" class="form-horizontal " >
+    <legend>用户注册</legend>
+    <div class="form-group">
+        <label for="username" class="col-sm-2 control-label">用户名：</label>
+        <div class="col-sm-3">
+            <input type="text" class="form-control" id="username" name="username">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="password" class="col-sm-2 control-label">密码：</label>
+        <div class="col-sm-3">
+            <input type="password" class="form-control" id="password" name="password">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="repassword" class="col-sm-2 control-label">重新输入密码：</label>
+        <div class="col-sm-3">
+            <input type="password" class="form-control" id="repassword" name="repassword">
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="col-sm-offset-2 col-sm-3">
+            <p class="warning"></p>
+        </div>
+    </div>
+    <div class="col-sm-offset-2">
+        <button id="btn-reg" type="submit" class="btn btn-info">Submit</button>
+    </div>
+
+</div>
+
+{%endblock%}

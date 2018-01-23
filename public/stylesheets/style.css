@@ -1,0 +1,21 @@
+body {
+  padding: 60px;
+}
+
+.nav-bg {
+  color: #ffffff;
+  background-color: #5e5e5e;
+}
+
+.content{
+  margin: 50px;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.warning{
+  margin-top: 20px;
+  color: #e38d13;
+}
